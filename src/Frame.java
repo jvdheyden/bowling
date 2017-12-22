@@ -33,5 +33,10 @@ public class Frame
 		}
 		return sum;
 	}
+	
+	public void addScore(int droppedPins)
+	{
+		_scores.add(droppedPins);
+	}
 
 }
