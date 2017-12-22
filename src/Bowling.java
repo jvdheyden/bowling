@@ -96,7 +96,7 @@ public class Bowling
 			if (f.getPlayer() == currentPlayer && f.getFrameNumber() == _frameList.size())
 			{
 				currentFrame = f;
-				f.addScore(droppedPins);
+				currentFrame.addScore(droppedPins);
 				break;
 			}
 		}
